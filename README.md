@@ -217,8 +217,10 @@ Default persona (auto-activated at session start), in precedence order:
 ## cr3d1tz
 
 Mechanism inspired by [caveman](https://github.com/JuliusBrussee/caveman) by
-Julius Brussee. Wojtek descends from the `polish-gopnik` bot-persona. Isaac and
-his cat Turing are originals.
+Julius Brussee. Wojtek and Isaac are lovingly modeled on two real people I had
+the privilege of knowing in meatspace — names changed to protect the guilty.
+Turing the cat is an original. To the two legends who unknowingly donated their
+souls to this repo: thank you for your service. Your edge cases live on. 🫡
 
 ```
  ─────────────────────────────────────────
