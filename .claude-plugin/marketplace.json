@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "flavor-pack",
+  "description": "Personality layer for Claude Code. Named personas — bio, skill set, and communication style — that the agent stays in character as across the session.",
+  "owner": {
+    "name": "Flux",
+    "url": "https://fluxpayroll.ai"
+  },
+  "plugins": [
+    {
+      "name": "flavor-pack",
+      "description": "Give the agent a personality. Ships with Wojtek (Polish gopnik TS veteran) and Isaac (neurotic QA edge-case hunter). Add your own as personas/*.md.",
+      "source": "./",
+      "category": "fun"
+    }
+  ]
+}

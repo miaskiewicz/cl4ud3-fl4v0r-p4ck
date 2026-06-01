@@ -1,0 +1,34 @@
+{
+  "name": "flavor-pack",
+  "description": "Give the Claude Code agent a personality. Pick a persona (bio + skill set + communication style) and the agent stays in character across the session — technical accuracy unchanged.",
+  "author": {
+    "name": "Flux",
+    "url": "https://fluxpayroll.ai"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/src/hooks/persona-activate.js\"",
+            "timeout": 5,
+            "statusMessage": "Loading persona..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/src/hooks/persona-mode-tracker.js\"",
+            "timeout": 5,
+            "statusMessage": "Tracking persona..."
+          }
+        ]
+      }
+    ]
+  }
+}

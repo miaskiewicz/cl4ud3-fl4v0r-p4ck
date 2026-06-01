@@ -1,0 +1,37 @@
+{
+  "name": "flavor-pack",
+  "version": "0.1.0",
+  "description": "Give the Claude Code agent a personality. Pick a persona (bio + skill set + communication style) and the agent stays in character across the session — technical accuracy unchanged.",
+  "author": {
+    "name": "Flux",
+    "url": "https://fluxpayroll.ai"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "flavor-pack-install": "bin/install-settings.js"
+  },
+  "scripts": {
+    "install-plugin": "./install.sh",
+    "uninstall-plugin": "./uninstall.sh"
+  },
+  "files": [
+    "bin",
+    "commands",
+    "personas",
+    "skills",
+    "src",
+    "install.sh",
+    "uninstall.sh",
+    ".claude-plugin"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "persona",
+    "flavor-pack"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
