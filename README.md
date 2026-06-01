@@ -89,6 +89,7 @@ Every command has a leetspeak name and a plain `*-persona` alias — both work.
 | `/no-fl4v0r` | `/no-persona` | Kill the active persona — return to normal voice |
 | `/add-fl4v0r` | `/add-persona` | Build a persona from a **real person** (GitHub + Slack) |
 | `/auto-fl4v0r` | `/auto-persona` | Build a persona of **you** from local Claude history |
+| `/review-fl4va <persona> [target]` | `/review-persona <persona> [target]` | Code review in a persona's voice — caveman-review one-liners. Target = diff/branch/file/PR, or empty for current changes |
 
 Natural language works too: *"be wojtek"*, *"talk like isaac"*, *"drop the
 persona"*, *"normal mode"*.
