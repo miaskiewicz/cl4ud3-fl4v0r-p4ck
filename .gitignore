@@ -28,3 +28,8 @@ tmp/
 
 # Claude local state
 .claude/settings.local.json
+
+# MCP config
+.mcp.json
+mcp.json
+.cursor/mcp.json
